@@ -20,5 +20,6 @@ public class TestClass {
         given().contentType(ContentType.JSON).body(location).log().body().when()
                 .post("http://api.zippopotam.us/us/90210")
                 .then().assertThat().statusCode(200);
+        /*test*/
     }
 }
